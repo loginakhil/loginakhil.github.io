@@ -26,7 +26,7 @@ sass:
   style:            compressed
 
 # Comments
-disqus_shortname:   taylantatli
+disqus_shortname:   https-loginakhil-github-io-blog
 
 # Social
 # if you don't have any of social below, comment the line.
@@ -39,18 +39,18 @@ disqus_shortname:   taylantatli
 #bing-verify:
 #email:
 twitter:            loginakhil
-facebook:           username
-github-url:         username
+#facebook:           username
+github-url:         loginakhil
 #stackoverflow:     1039481/akhil-thayyil from a "http://stackoverflow.com/users/1039481/akhil-thayyil" link
 #linkedin:          username
 #xing:              username
-instagram:          username
+#instagram:          username
 #lastfm:            username
 #tumblr:            username
 #medium:            '@username'
 #pinterest:         username
 #foursquare:        username
-steam:              username
+#steam:              username
 #dribbble:          username
 #youtube:           username
 #youtube-channel:   channel
