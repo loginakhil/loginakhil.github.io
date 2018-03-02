@@ -9,24 +9,29 @@
 
 :root{
   --page-width: 8.5in;
-  --page-height: 11in;
+  --page-height: 13.75in;
   --main-width: 6.4in;
   --sidebar-width: calc(var(--page-width) - var(--main-width));
   --decorator-horizontal-margin: 0.2in;
-
+  
   --sidebar-horizontal-padding: 0.2in;
-
+  
   /* XXX: using px for very good precision control */
   --decorator-outer-offset-top: 10px;
   --decorator-outer-offset-left: -5.5px;
   --decorator-border-width: 1px;
   --decorator-outer-dim: 9px;
   --decorator-border: 1px solid #ccc;
-
+  
   --row-blocks-padding-top: 5pt;
   --date-block-width: 0.6in;
-
+  
   --main-blocks-title-icon-offset-left: -19pt;
+}
+@media print {
+  :root {
+    --page-height: 22in;
+  }  
 }
 
 body{
@@ -114,7 +119,7 @@ li{
 #main h2 > i{
   /* use absolute position to prevent icon's width from misaligning title */
   /* assigning a fixed width here is no better due to needing to align decorator
-     line too */
+  line too */
   position: absolute;
   left: var(--main-blocks-title-icon-offset-left);
   z-index: 1; /* over decorator line */
@@ -191,13 +196,13 @@ li{
 }
 
 /*
- * XXX: Use two filled circles to achieve the circle-with-white-border effect.
- * The normal technique of only using one pseudo element and
- * border: 1px solid white; style makes firefox erroneously either:
- * 1) overflows the grayshade background (if no background-clip is set), or
- * 2) shows decorator line which should've been masked by the white border
- *
- */
+* XXX: Use two filled circles to achieve the circle-with-white-border effect.
+* The normal technique of only using one pseudo element and
+* border: 1px solid white; style makes firefox erroneously either:
+* 1) overflows the grayshade background (if no background-clip is set), or
+* 2) shows decorator line which should've been masked by the white border
+*
+*/
 
 .decorator::before{
   position: absolute;
@@ -253,7 +258,7 @@ li{
 
 .main-block.concise .details div:not(.concise){
   /* use padding to work around the fact that margin doesn't affect floated
-     neighboring elements */
+  neighboring elements */
   padding: 0.05in 0 0.07in 0;
 }
 
@@ -393,3 +398,17 @@ li{
 #contact .fa {
   margin-right: .25em;
 } 
+
+@media all {
+	.page-break	{ 
+    display: none; 
+  }
+}
+
+@media print {
+	.page-break	{ 
+    display: block; 
+    page-break-before: always;
+    padding-top: 1in;
+  }
+}
