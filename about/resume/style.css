@@ -58,7 +58,7 @@ li{
   float: left;
   width: var(--main-width);
   padding: 0.25in 0.25in 0 0.25in;
-  font-size: 7pt;
+  font-size: 8pt;
 }
 
 #sidebar{
