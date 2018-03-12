@@ -248,7 +248,11 @@ li{
   font-size: 8.5pt;
 }
 
-.main-block:not(.concise):not(.normal) .details div{
+.main-block:not(.concise):not(.normal) .details div.custom_concise{
+  margin: 0.09in 0 0.1in 0;
+}
+
+.main-block:not(.concise):not(.normal) .details div:not(.custom_concise){
   margin: 0.28in 0 0.1in 0;
 }
 
@@ -264,6 +268,10 @@ li{
   /* use padding to work around the fact that margin doesn't affect floated
   neighboring elements */
   padding: 0.05in 0 0.07in 0;
+}
+
+.details .heads_up {
+  margin-top: 0.1in;
 }
 
 .details .place{
