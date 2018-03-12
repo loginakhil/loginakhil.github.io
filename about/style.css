@@ -30,7 +30,7 @@
 }
 @media print {
   :root {
-    --page-height: 22in;
+    --page-height: 27in;
   }
 }
 
