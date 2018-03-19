@@ -9,7 +9,7 @@
 
 :root{
   --page-width: 10.5in;
-  --page-height: 22.5in;
+  --page-height: 23.5in;
   --main-width: 7.8in;
   --sidebar-width: calc(var(--page-width) - var(--main-width));
   --decorator-horizontal-margin: 0.2in;
