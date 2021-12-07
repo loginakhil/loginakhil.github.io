@@ -10,10 +10,10 @@ tiled_bg:           false   # Set this true if you want to tile your background 
 locale:             en_US
 url:                https://loginakhil.github.io/blog
 posts:
-  - url: /templating-docker-compose.md
-    title: Templating in docker compose files
-    excerpt: Re-using configuration snippets in docker compose using templating
-    project: null
+- url: '/templating-docker-compose.md'
+  title: 'Templating in docker compose files'
+  excerpt: 'Re-using configuration snippets in docker compose using templating'
+  project: ~
 
 
 # Jekyll
