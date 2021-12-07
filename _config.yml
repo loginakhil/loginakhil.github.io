@@ -13,6 +13,7 @@ posts:
   - url: /templating-docker-compose.md
     title: Templating in docker compose files
     excerpt: Re-using configuration snippets in docker compose using templating
+    project: null
 
 
 # Jekyll
