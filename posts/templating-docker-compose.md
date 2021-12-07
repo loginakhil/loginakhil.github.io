@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Using templates in docker compose
-tags: [docker, docker-compose, ]
+tags: [docker, docker-compose, templating, yaml]
 date: 2021-12-05
 comments: false
 ---
@@ -43,7 +43,6 @@ Have you ever wondered how to re-use configuration fragments in docker-compose f
 
 From docker compose version `3.4` onwards, we can achieve this using **extension-fields**
 
-https://docs.docker.com/compose/compose-file/compose-file-v3/#extension-fields
 
 
 This can be used in two ways
@@ -107,3 +106,6 @@ services:
         depends_on:
             - db
 ```
+
+
+Read more about this in the official documentation [https://docs.docker.com/compose/compose-file/compose-file-v3/#extension-fields](https://docs.docker.com/compose/compose-file/compose-file-v3/#extension-fields)
