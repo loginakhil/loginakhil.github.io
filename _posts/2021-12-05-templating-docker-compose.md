@@ -8,7 +8,7 @@ comments: false
 
 
 
-In the below example, for both `db` and `web` service we have duplicated `environment` configuration.
+In the below example, for both `db` and `web` services, we have duplicated the `environment` configuration.
 
 ```yml
 version: "3.9"
@@ -38,7 +38,7 @@ services:
 
 ```
 
-Have you ever wondered how to re-use configuration fragments in docker-compose files ?
+Have you ever wondered how to re-use configuration fragments in docker-compose files?
 
 
 From docker compose version `3.4` onwards, we can achieve this using **extension-fields**
