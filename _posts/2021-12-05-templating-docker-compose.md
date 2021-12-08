@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Using templates in docker compose
+title: "Using templates in docker compose"
 tags: [docker, docker-compose, templating, yaml]
 date: 2021-12-05
 comments: false
