@@ -1,7 +1,7 @@
 # Site
-title:              blog
-bio:                'Personal Blog.'
-description:        "Personal Blog."
+title:              Yet Another Blog
+bio:                'Yet Another Blog.'
+description:        "Yet Another Blog."
 reading_time:       true
 words_per_minute:   200
 logo:               'assets/img/logo.png'
