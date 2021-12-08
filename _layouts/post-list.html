@@ -22,7 +22,6 @@ layout: compress
                     </a>
                 </div>
                 <div class="post-list">   
-                    Total Posts : {{ site.posts | size }}                 
                     {% for post in site.posts %} 
                         {% if post.project == null %}
                     <ul>
